@@ -18,7 +18,7 @@ spec:
     spec: # Pod spec
       containers:
       - name: ngnix
-        image: nginx:1.21
+        image: nginx:1.22
         ports:
         - containerPort: 80
         envFrom:
